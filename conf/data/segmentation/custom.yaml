@@ -1,0 +1,7 @@
+data:
+    task: segmentation
+    class: Custom.CustomDataset
+    dataroot: data
+    fold: 5
+    class_weight_method: "sqrt"
+    use_category: False
